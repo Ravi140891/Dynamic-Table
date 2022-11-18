@@ -25,11 +25,41 @@
     </header>
     <section class="database-creation container">
         <h2>Want to Create and Manage your Database??</h2>
-        <form>
-            <input type="text" name="" id="" placeholder="Enter Name">
-            <input type="email" name="" id="" placeholder="Enter Email">
-            <input type="tel" name="" id="" placeholder="Enter Number">
+        <form class="form">
+            <input type="text" name="" id="name" placeholder="Enter Name" required>
+            <input type="email" name="" id="email" placeholder="Enter Email" required>
+            <input type="tel" name="" id="number" placeholder="Enter Number" required>
+            <input type="submit" value="Create" class="btn form-btn">
         </form>
     </section>
+    <section>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="name">Name</th>
+                    <th class="email">Email</th>
+                    <th class="number">Phone No.</th>
+                    <th class="btn btn-th">Action</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                
+            </tbody>
+        </table>
+    </section>
+    <section class="section-feedback container">
+    <h2>Feedback Form</h2>
+    <form class="feedback-form">
+      <div class="form-group">
+        <label for="Name">Your Name</label>
+        <input type="text" name="Name" id="">
+      </div>
+      <div class="form-group">
+        <label for="feedback">Your Feedback</label>
+        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+      </div>
+      <button type="submit" class="btn feedback-btn">Submit</button>
+    </form>
+  </section>
 </body>
 </html>

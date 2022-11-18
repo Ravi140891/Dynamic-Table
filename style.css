@@ -60,3 +60,145 @@ a{
     margin-top: 5rem;
     text-align: center;
 }
+.form{
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.form input{
+    min-height: 100%;
+}
+.form input[type="text"]{
+    width: 28%;
+    padding: .8rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.form input[type="email"]{
+    width: 28%;
+    padding: .8rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.form input[type="tel"]{
+    width: 20%;
+    padding: .8rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.form input[type="submit"]{
+    width: 20%;
+    background-color: #A78659;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.section-feedback{
+  margin: 5rem auto;
+  text-align: center;
+  background-color: #ebe4e07c;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.feedback-form{
+  max-width: 800px;
+  width: 95%;
+  margin: auto;
+  text-align: left;
+}
+.feedback-form label{
+display: block;
+}
+.feedback-form input{
+  display: block;
+  width: 100%;
+  padding: .5rem;
+}
+.form-group{
+  margin-top: 1rem;
+}
+.feedback-form textarea{
+  width: 100%;
+}
+.feedback-btn{
+  background: #A78659;
+  color: whitesmoke;
+  padding: 1rem 2rem;
+  margin: auto;
+  display: block;
+  margin-top: 1rem;
+}
+.table{
+    margin-top: 2rem;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.table tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    min-width: 28%;
+    padding: 1rem;
+    margin-right: 1rem;
+    background-color: #C9AE83;
+}
+.email{
+    min-width: 28%;
+    padding: 1rem;
+    margin-right: 1rem;
+    background-color: #C9AE83;
+}
+.number{
+    min-width: 20%;
+    padding: 1rem;
+    margin-right: 1rem;
+    background-color: #C9AE83;
+}
+.btn-th{
+    width: 20%;
+    padding: 1rem;
+    background-color: #C9AE83;
+}
+.table td{
+    margin-top: 1rem;
+}
+.name-td{
+    min-width: 28%;
+    padding: 1rem;
+    margin-right: 1rem;
+    background-color: #d8b47b;
+    text-align: center;
+    color: whitesmoke;
+}
+.mail-td{
+    min-width: 28%;
+    padding: 1rem;
+    margin-right: 1rem;
+    background-color: #d8b47b;
+    text-align: center;
+    color: whitesmoke;
+}
+.num-td{
+    min-width: 20%;
+    padding: 1rem;
+    margin-right: 1rem;
+    background-color: #d8b47b;
+    text-align: center;
+    color: whitesmoke;
+}
+.btn-td{
+    min-width: 20%;
+    text-align: center;
+}
+.btn-td button{
+    width: 100%;
+    padding:1rem;
+    background-color: rgb(160, 63, 63);
+    color: whitesmoke;
+    font-size: 1rem;
+}
